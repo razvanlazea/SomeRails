@@ -1,0 +1,11 @@
+dependencies:
+  pre:
+    - gem uninstall bundler
+    - gem install bundler --pre
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: SomeRails
+

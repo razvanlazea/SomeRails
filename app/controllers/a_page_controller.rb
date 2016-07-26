@@ -1,6 +1,6 @@
 class APageController < ApplicationController
   def hi
-  	@user = User.find(1)
+  	 @user = User.first
   end
 
   def bye

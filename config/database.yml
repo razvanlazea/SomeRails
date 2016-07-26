@@ -8,8 +8,8 @@ development:
   encoding: unicode
   database: postgres
   pool: 5
-  username: postgres
-  password: postgres
+  username: razvan
+  password: password
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -18,8 +18,9 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: First_test
+  database: some_test
   pool: 5
-  username: First
-  password:
+  username: razvan
+  password: password
+  host: localhost
 

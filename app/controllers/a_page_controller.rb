@@ -4,5 +4,6 @@ class APageController < ApplicationController
   end
 
   def bye
+  	@u = User.first
   end
 end
